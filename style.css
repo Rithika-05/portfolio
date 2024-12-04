@@ -308,6 +308,7 @@ color: rgb(14, 184, 190);
     line-height:3;
     background-color: rgb(31, 71, 101);
     display: inline;
+    align-items:center;
     margin-left: 20px;
     border-radius: 8px;
     padding:5px;
@@ -397,23 +398,6 @@ color: rgb(14, 184, 190);
     }
 }
 
-.btn-box .btn-1 {
-    font-size: 20px; 
-    padding: 15px 30px; 
-    width: auto; 
-    background-color: black;
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: all 0.3s ease; 
-}
-
-.btn-box .btn-1:hover {
-    background-color: black; 
-    transform: scale(1.1); 
-}
-
 /* Projects Section */
 #projects {
     padding: 50px 20px;
@@ -436,7 +420,7 @@ color: rgb(14, 184, 190);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 30px;
+    gap: 20px;
 }
 
 .project-item {
@@ -444,7 +428,7 @@ color: rgb(14, 184, 190);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
+    width: 30%;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     text-align: center;
 }
@@ -491,6 +475,7 @@ color: rgb(14, 184, 190);
 @media (max-width: 768px) {
     #projects .heading {
         font-size: 2rem;
+        width: 100px;
     }
 
     .project-list {
